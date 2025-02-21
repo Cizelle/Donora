@@ -1,0 +1,32 @@
+.donor-form {
+    display: flex;
+    flex-direction: column; /* Arrange labels and inputs vertically */
+    width: 80%; /* Adjust as needed */
+    margin: 20px auto; /* Center the form */
+  }
+  
+  .donor-form label {
+    margin-bottom: 5px;
+  }
+  
+  .donor-form input,
+  .donor-form textarea,
+  .donor-form select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .donor-form textarea {
+    height: 100px; /* Adjust as needed */
+  }
+  
+  .donor-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

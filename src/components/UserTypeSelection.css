@@ -1,0 +1,103 @@
+/* src/components/UserTypeSelection.css */
+
+.user-type-selection-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #e0eafc, #cfdef3);
+}
+
+.user-type-selection-card {
+    background-color: white;
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    position: relative; /* For positioning the logo */
+}
+
+.donora-title-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.donora-title-logo {
+    width: 8rem; /* Adjust size as needed */
+    height: 8rem;
+    border-radius: 50%; /* Make it circular */
+    background-color: #f0f0f0; /* Placeholder background color */
+    margin-bottom: 1rem; /* Space below the logo */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Small shadow */
+    overflow: hidden; /* Hide image overflow */
+}
+
+.donora-title-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.donora-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.user-type-selection-subtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.user-type-selection-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.user-type-selection-button {
+    display: grid;
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+     justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 640px) { /* Adjust breakpoint as needed */
+    .user-type-selection-buttons {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+}
+
+.user-type-selection-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+/* Specific button styles */
+.donor-button {
+    background-color: #cf0404;
+}
+
+.recipient-button {
+    background-color: #cf0404;
+}
+
+.hospital-button {
+    background-color: #cf0404;
+}

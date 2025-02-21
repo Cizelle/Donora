@@ -1,0 +1,74 @@
+/* src/components/Navbar.css */
+
+.bg-gray-800 {
+    background-color: #374151; /* Dark gray background */
+  }
+  
+  .p-4 {
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust container width as needed */
+    margin: 0 auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .hover\:text-gray-300:hover {
+    color: #d3d4d6; /* Light gray on hover */
+  }
+  
+  .space-x-4 {
+    gap: 1rem; /* Adjust spacing between links */
+  }
+  
+  .flex-1 {
+    flex: 1; /* Makes the logo take up available space */
+  }
+  
+  /* Responsive adjustments (optional) */
+  @media (max-width: 768px) {
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .text-xl {
+      font-size: 1.125rem; /* 18px */
+    }
+  
+    .space-x-4 {
+      gap: 0.75rem; /* Adjust spacing on smaller screens */
+    }
+  }
+  
+  nav {
+    position: sticky; /* or fixed, depending on your preference */
+    top: 0; /* Stick to the top */
+    z-index: 10; /* Ensure it's above other content */
+    width: 100%; /* Ensure it spans the full width */
+  }

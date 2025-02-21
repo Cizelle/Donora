@@ -1,0 +1,25 @@
+/* src/components/Hero.css (or your global CSS) */
+.hero {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 4rem 0; /* Example padding */
+    text-align: center; /* Example text alignment */
+  }
+  
+  .hero-content {
+    max-width: 960px; /* Example max width */
+    margin: 0 auto; /* Example centering */
+  }
+  
+  .user-welcome { /* Style for user-specific welcome message */
+    background-color: lightgreen;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+  }
+  
+  .hero h1 { /* Example heading style */
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* ... other hero styles */

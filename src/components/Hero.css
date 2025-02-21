@@ -1,0 +1,113 @@
+/* src/components/Hero.css */
+.hero {
+  background-image: url("your-hero-image.jpg"); /* Replace with your hero image */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Or a color that contrasts well with your image */
+  padding: 5rem 0; /* Adjust padding as needed */
+  text-align: center; /* Center the content */
+}
+
+.hero-content {
+  max-width: 800px; /* Limit width for better readability */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6; /* Improve line height for readability */
+}
+
+.user-welcome {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.user-welcome h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.user-welcome p {
+  font-size: 1rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 1rem; /* Add some space between buttons */
+}
+
+.hero-buttons button {
+  background-color: #007bff; /* Example button color */
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+.hero-buttons button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Responsive adjustments (optional) */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+}
+/* src/components/Hero.css */
+/* ... other styles ... */
+/* src/components/Hero.css */
+/* ... other styles ... */
+
+.organ-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  border-radius: 8px;
+  height: 250px; /* Set a fixed height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.organ-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 120px; /* Ensure enough height for image and name */
+}
+
+.organ-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.organ-name {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  color: #333;
+}
+
+/* ... other styles ... */

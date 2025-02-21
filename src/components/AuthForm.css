@@ -1,0 +1,107 @@
+/* src/components/AuthForm.css */
+
+.auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #e0eafc, #cfdef3); /* Light blue gradient background */
+  }
+  
+  .auth-form-card {
+    background-color: white;
+    padding: 3rem; /* Increased padding */
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    width: 400px; /* Fixed width for the card */
+    max-width: 90%; /* Responsive width */
+  }
+  
+  .auth-form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center; /* Center the title */
+    color: #343a40; /* Dark gray */
+  }
+  
+  .auth-form-error {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
+  .auth-form-label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555; /* Slightly darker gray */
+  }
+  
+  .auth-form-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem; /* Increased margin */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 0.4rem;
+    box-sizing: border-box; /* Include padding in width */
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transitions */
+  }
+  
+  .auth-form-input:focus {
+    border-color: #80bdff; /* Blue border on focus */
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Blue focus ring */
+  }
+  
+  .auth-form-button {
+    background-color: #cf0404; /* Blue button */
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .auth-form-button:hover {
+    background-color: #cf0404; /* Darker blue on hover */
+  }
+  
+  .auth-form-toggle {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  
+  .auth-form-toggle-link {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .auth-form-back-button {
+    background-color: #c64343; /* Blue button */
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+    transition: background-color 0.3s ease;
+    margin-top: 1rem; /* Add some space above the button */
+    /* Add any specific styles for the back button here */
+    background-color: #c64343; /* Example: Gray background */
+  }
+
+  .auth-form-back-button:hover {
+    background-color: #b80932; /* Example: Darker gray on hover */
+  }
+  
+  /* Responsive adjustments (optional) */
+  @media (max-width: 500px) {
+    .auth-form-card {
+      padding: 2rem;
+    }
+  }
